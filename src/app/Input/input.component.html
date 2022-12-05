@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form>
+    <label for="password">Password: </label>
+    <input id="password" type="text" [formControl]="password" placeholder=" Input your password" class="input-field">
+    <div [ngClass]="'first-section'+this.result$"> </div>
+    <div [ngClass]="'second-section'+this.result$"> </div>
+    <div [ngClass]="'third-section'+this.result$"> </div>
+  </form>
+
+</body>
+
+</html>

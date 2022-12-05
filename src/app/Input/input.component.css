@@ -1,0 +1,74 @@
+form {
+  box-shadow: 0pt 2px 5px rgba(73, 165, 199, 0.7),
+    0px 0px 8px 5px rgba(13, 72, 83, 0.4) inset;
+  padding: 20px;
+  padding-left: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+input {
+  width: 180px;
+  border: radius 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  background-color: gainsboro;
+  border: 0;
+  padding: 0;
+}
+input:focus {
+  outline-color: teal;
+}
+label {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  font-family: "Times New Roman", serif;
+  height: 30px;
+}
+div {
+  background: gray;
+  width: 180px;
+  height: 25px;
+  margin: 20px auto;
+}
+.first-sectionDanger {
+  background-color: red;
+}
+.second-sectionDanger {
+  background-color: red;
+}
+.third-sectionDanger {
+  background-color: red;
+}
+.first-sectionStrong {
+  background-color: green;
+}
+.second-sectionStrong {
+  background-color: green;
+}
+.third-sectionStrong {
+  background-color: green;
+}
+.first-sectionMedium {
+  background-color: yellow;
+}
+.second-sectionMedium {
+  background-color: yellow;
+}
+.third-sectionMedium {
+  background-color: gray;
+}
+.first-sectionEasy {
+  background-color: red;
+}
+.second-sectionEasy {
+  background-color: gray;
+}
+.third-sectionEasy {
+  background-color: gray;
+}
